@@ -62,7 +62,7 @@ namespace Ebaysharp.Entities
     {
         public bool applyTax { get; set; }
         public string thirdPartyTaxCategory { get; set; }
-        public int vatPercentage { get; set; }
+        public decimal vatPercentage { get; set; }
     }
     public class PricingSummary
     {
